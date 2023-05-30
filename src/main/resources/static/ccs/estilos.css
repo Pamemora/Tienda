@@ -1,0 +1,18 @@
+#tituloPrincipal{
+    color: red;
+
+}
+.parrafos {
+    text-align: center;
+    color: green;
+    font-weight: bold;
+        
+}
+
+.enfasis {
+   background-color:buttonshadow;
+   color: red;    
+}
+a{
+    color: brown;
+}    
