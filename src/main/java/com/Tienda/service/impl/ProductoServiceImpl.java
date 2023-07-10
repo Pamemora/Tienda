@@ -37,7 +37,6 @@ public class ProductoServiceImpl implements ProductoService {
         productoDao.save(producto);
     }
 
-    
     @Override
     @Transactional
     public void delete(Producto producto) {
