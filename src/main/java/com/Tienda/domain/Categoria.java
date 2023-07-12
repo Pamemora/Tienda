@@ -20,7 +20,7 @@ public class Categoria implements Serializable {
     private String rutaImagen;
     private boolean activo;
 
-    @ManyToOne​
+    @OneToMany
     @JoinColumn(name = "id_categoria")
     private List<Producto> productos;
     
